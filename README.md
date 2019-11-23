@@ -8,7 +8,7 @@ In this notebook, we’ll recreate a style transfer method that is outlined in t
 style, colors, and textures are similar to that of the style image
 
 
-# Instructions
+## Instructions
 1. Load in a pre-trained VGG Net
 2. Freeze the weights in selected layers, so that the model can be used as a fixed feature extractor
 3. Load in content and style images
