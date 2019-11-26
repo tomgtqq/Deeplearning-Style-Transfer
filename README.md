@@ -3,7 +3,7 @@
 In this notebook, we’ll recreate a style transfer method that is outlined in the paper, Image Style Transfer Using Convolutional Neural Networks, by Gatys in PyTorch.
 
 ## Separating Style and Content
-1. Style transfer relies on separating the content and style of an image. Given one content image and one style image, we aim to create a new, target image which should contain our desired content and style components:
+1. Style transfer relies on separating the content and style of an image. Given one content image and one style image, we aim to create a new, target image which should contain our desired content and style components
 2. objects and their arrangement are similar to that of the content image
 style, colors, and textures are similar to that of the style image
 
