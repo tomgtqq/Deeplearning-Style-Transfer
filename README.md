@@ -2,6 +2,10 @@
 
 In this notebook, we’ll recreate a style transfer method that is outlined in the paper, Image Style Transfer Using Convolutional Neural Networks, by Gatys in PyTorch.
 
+![Deeplearning-Style-Transfer.png](Deeplearning-Style-Transfer.png)
+
+* [Project Introduction](https://mp.weixin.qq.com/s?__biz=MzIxNzU3MjA0OA==&mid=2247483680&idx=1&sn=93c8f718cc3ac83a2c584fbe014a09d7&chksm=97f6f69fa0817f89200277be03950bf9db699045f784819712fbe0bc358508bcc37932c2017a&token=312677330&lang=zh_CN#rd)
+
 ## Separating Style and Content
 1. Style transfer relies on separating the content and style of an image. Given one content image and one style image, we aim to create a new, target image which should contain our desired content and style components
 2. objects and their arrangement are similar to that of the content image
@@ -15,3 +19,22 @@ style, colors, and textures are similar to that of the style image
 4. Extract features from different layers of our model
 5. Complete a function to calculate the gram matrix of a given convolutional layer
 6. Define the content, style, and total loss for iteratively updating a target image
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
+
+## Built With
+
+* [Ethereum](https://www.ethereum.org/) - Ethereum is a decentralized platform that runs smart contracts
+* [IPFS](https://ipfs.io/) - IPFS is the Distributed Web | A peer-to-peer hypermedia protocol
+to make the web faster, safer, and more open.
+* [Truffle Framework](http://truffleframework.com/) - Truffle is the most popular development framework for Ethereum with a mission to make your life a whole lot easier.
+
+## Authors
+
+* **Tom** - *Fullstack egineer* - [github profile](https://github.com/tomgtqq)
+
+## License
+
+This project is licensed under the MIT License
